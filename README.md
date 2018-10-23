@@ -1,4 +1,2 @@
 # C++
-Programs written in c++
-
-this consists of projects I have created all in c++.
+This consists of projects I have created all in c++.

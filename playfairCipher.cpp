@@ -42,8 +42,6 @@ int main(){
 				cout <<"[Invalid Function]\n";	
 		}
 		
-		
-		
 		for(int i = 0; i < message.length(); i++){
 			cout << message[i];
 			if(i != 0 && i % 2 == 1) cout << ' ';
@@ -191,8 +189,7 @@ string messageDecrypt(string message, string table){
 string stringPrep(string input){
 	bool iserased, valid_key;
 	string str;
-	
-	//cin.get();                                                                                     //accepts only alphabetical characters, erases spaces for keyword and phrase
+	                                           //accepts only alphabetical characters, erases spaces for keyword and phrase
 	do{
 		cout << input;		
 		getline(cin, str);
